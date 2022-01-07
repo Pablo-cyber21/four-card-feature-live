@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+:root {
+  /* primary */
+  --Red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+  --ff: "Poppins", sans-serif;
+  /* secondary */
+  --Very-Dark-Blue: hsl(234, 12%, 34%);
+  --Grayish-Blue: hsl(229, 6%, 66%);
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+span {
+  font-weight: 200;
+}
+
+p {
+  color: hsl(229, 6%, 66%);
+}
+
+header {
+  text-align: center;
+  margin-top: 2.88em;
+  margin-bottom: 2.33em;
+  font-size: 0.85em;
+  padding: 0.5em;
+}
+
+.header-text {
+  font-weight: 400;
+  padding-top: 1.33em;
+  line-height: 1.77em;
+  font-size: 1.11em;
+}
+
+.cards {
+  padding: 2em 1em;
+}
+
+.card {
+  /* border: 1px solid blueviolet; */
+  padding: 1.88em;
+  border-radius: 10px;
+}
+
+.card-text {
+  font-size: 0.88em;
+}
+
+.card-1 {
+  box-shadow: 0px 3px 5px 5px hsl(229, 6%, 66%);
+  margin-bottom: 20px;
+  border-top: 3px solid hsl(180, 62%, 55%);
+}
+.card-2 {
+  box-shadow: 0px 3px 5px 5px hsl(229, 6%, 66%);
+  margin-bottom: 20px;
+  border-top: 3px solid hsl(0, 78%, 62%);
+}
+
+.card-3 {
+  box-shadow: 0px 3px 5px 5px hsl(229, 6%, 66%);
+  margin-bottom: 20px;
+  border-top: 3px solid hsl(34, 97%, 64%);
+}
+
+.card-4 {
+  box-shadow: 0px 3px 5px 5px hsl(229, 6%, 66%);
+  margin-bottom: 20px;
+  border-top: 3px solid hsl(212, 86%, 64%);
+}
+
+.card + .card {
+  margin-top: 1.88em;
+}
+
+.image {
+  text-align: right;
+  padding: 1.33em;
+  margin-top: 1.99em;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 980px) {
+  header {
+    width: 100%;
+    max-width: 630px;
+    margin-left: 24%;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1.99em;
+    padding: 2em;
+  }
+
+  .card {
+    padding: 1.99em;
+    height: 300px;
+  }
+
+  .card-1 {
+    margin-top: 11em;
+    margin-bottom: 9em;
+    width: 500px;
+  }
+
+  .card-4 {
+    margin-top: 11em;
+    margin-bottom: 9em;
+  }
+}
