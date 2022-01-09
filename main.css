@@ -20,8 +20,12 @@
   margin: 0;
 }
 
-span {
+large-font {
   font-weight: 600;
+}
+
+.small-font{
+font-weight:200;
 }
 
 p {
