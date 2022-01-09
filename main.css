@@ -103,7 +103,7 @@ header {
   header {
     width: 100%;
     max-width: 630px;
-    margin-left: 24%;
+    margin:auto;
   }
 
   .cards {
@@ -116,13 +116,11 @@ header {
 
   .card {
     padding: 1.99em;
-    height: 300px;
   }
 
   .card-1 {
     margin-top: 11em;
     margin-bottom: 9em;
-    width: 500px;
   }
 
   .card-4 {
